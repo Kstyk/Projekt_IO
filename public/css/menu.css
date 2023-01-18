@@ -1,0 +1,25 @@
+body {
+    background: #192226 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar a {
+    color:#a3bfc6 !important;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    border-bottom: 4px solid #a3bfc6;
+}
+
+@media only screen and (min-width:992px) {
+    #navbarNavDropdown {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,16 @@
+body,
+html {
+    height: 100vh !important;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.profile-head {
+    transform: translateY(5rem);
+}
+
+footer {
+    bottom: 0;
+}
